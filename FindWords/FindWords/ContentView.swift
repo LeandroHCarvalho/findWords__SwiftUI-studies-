@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // MARK: - Properties
+    
+    @State var showSettings: Bool = false
+    
+    // MARK: - Body Start
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        ZStack {
+            VStack {
+                // MARK: - Header
+                HeaderView(showSettingView: $showSettings)
+            }
         }
-        .padding()
+        
     }
 }
 
