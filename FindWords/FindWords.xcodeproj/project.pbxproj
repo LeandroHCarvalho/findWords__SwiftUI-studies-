@@ -18,6 +18,7 @@
 		C7A9D1932A2F86B100BAA7CC /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = C7A9D1922A2F86B100BAA7CC /* Sound */; };
 		C7A9D1952A2F874600BAA7CC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D1942A2F874600BAA7CC /* HeaderView.swift */; };
 		C7A9D1972A2F8C1F00BAA7CC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D1962A2F8C1F00BAA7CC /* SettingsView.swift */; };
+		C7A9D1992A303A2C00BAA7CC /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9D1982A303A2C00BAA7CC /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		C7A9D1922A2F86B100BAA7CC /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 		C7A9D1942A2F874600BAA7CC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C7A9D1962A2F8C1F00BAA7CC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C7A9D1982A303A2C00BAA7CC /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				C7A9D1662A2ECEDB00BAA7CC /* FindWordsApp.swift */,
 				C7A9D1682A2ECEDB00BAA7CC /* ContentView.swift */,
+				C7A9D1982A303A2C00BAA7CC /* UserSettings.swift */,
 				C7A9D1942A2F874600BAA7CC /* HeaderView.swift */,
 				C7A9D1962A2F8C1F00BAA7CC /* SettingsView.swift */,
 				C7A9D16A2A2ECEDC00BAA7CC /* Assets.xcassets */,
@@ -274,6 +277,7 @@
 				C7A9D1692A2ECEDB00BAA7CC /* ContentView.swift in Sources */,
 				C7A9D1972A2F8C1F00BAA7CC /* SettingsView.swift in Sources */,
 				C7A9D1952A2F874600BAA7CC /* HeaderView.swift in Sources */,
+				C7A9D1992A303A2C00BAA7CC /* UserSettings.swift in Sources */,
 				C7A9D1672A2ECEDB00BAA7CC /* FindWordsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
